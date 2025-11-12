@@ -1,0 +1,23 @@
+[
+  {
+    "id": "proj-1",
+    "title": "Gestione Appunti - Web App",
+    "description": "App semplice per prendere appunti con login e salvataggio locale. Progetto universitario con focus su UX e architettura.",
+    "stack": ["HTML","CSS","JavaScript"],
+    "link": ""
+  },
+  {
+    "id": "proj-2",
+    "title": "Analisi Dati - Script Python",
+    "description": "Script per analisi dati e visualizzazione statistica. Esempio di pipeline di preprocessing e grafici.",
+    "stack": ["Python","Pandas","Matplotlib"],
+    "link": ""
+  },
+  {
+    "id": "proj-3",
+    "title": "Sito Personale (vecchia versione)",
+    "description": "Versione precedente del portfolio, rimessa online e documentata per confronto.",
+    "stack": ["HTML","CSS"],
+    "link": ""
+  }
+]

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — (tuo nome)</title>
+  <meta name="description" content="Portfolio personale — progetti, contatti e CV." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#home">(Tuo Nome)</a>
+      <nav class="nav">
+        <a href="#projects">Progetti</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Salve — sono uno studente di Informatica</h1>
+        <p class="lead">Costruisco applicazioni, esperimenti e progetti full-stack — ecco una selezione dei miei lavori.</p>
+        <a class="cta" href="#projects">Vedi progetti</a>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Progetti</h2>
+        <div id="projects-list" class="projects-grid" aria-live="polite">
+          <!-- Projects injected by JS from data/projects.json -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>Sono uno studente di informatica alla triennale. Qui trovi i miei progetti, competenze e il mio CV. Aggiornerò questa sezione con una bio completa e il CV scaricabile.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contatti</h2>
+        <p>Preferisci inviare una mail? oppure usa il form qui sotto.</p>
+        <!-- Replace the form action with your Formspree / Getform / Netlify Forms endpoint -->
+        <form id="contact-form" action="REPLACE_WITH_FORM_ENDPOINT" method="POST">
+          <label for="name">Nome</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Messaggio</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Invia</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> (Tuo Nome) — Studente di Informatica</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
